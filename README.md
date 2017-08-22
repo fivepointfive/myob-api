@@ -1,12 +1,12 @@
-# MYOB Api
+# MYOB Api ::Forked
 
-[MYOB Api](https://github.com/davidlumley/myob-api) is an interface for accessing [MYOB](http://developer.myob.com/api/accountright/v2/)'s  AccountRight Live API.
+[MYOB Api](https://github.com/fivepointfive/myob-api) is an interface for accessing [MYOB](http://developer.myob.com/api/accountright/v2/)'s  AccountRight Live API.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'myob-api'
+    gem 'myob-api', :git => 'https://github.com/fivepointfive/myob-api.git'
 
 And then execute:
 
@@ -182,3 +182,7 @@ To update an existing entity, call #save on its model, passing through a hash yo
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+---
+## Credits
+- [David Lumley](https://github.com/davidlumley) for https://github.com/davidlumley/myob-api
