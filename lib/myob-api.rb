@@ -27,6 +27,9 @@ require 'myob/api/models/supplier_payment'
 require 'myob/api/models/bill'
 require 'myob/api/models/bill_service'
 
+require 'myob/api/models/order'
+require 'myob/api/models/order_service'
+
 require 'myob/api/models/payroll_category'
 require 'myob/api/models/wage'
 require 'myob/api/models/entitlement'
