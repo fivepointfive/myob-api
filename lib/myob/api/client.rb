@@ -24,9 +24,7 @@ module Myob
               :request => {
                   :timeout => 1800,
                   :open_timeout => 1800
-              },
-              :timeout => 1800,
-              :open_timeout => 1800
+              }
           }
         })
 
