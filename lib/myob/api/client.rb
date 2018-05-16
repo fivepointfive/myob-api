@@ -20,6 +20,14 @@ module Myob
           :site          => 'https://secure.myob.com',
           :authorize_url => '/oauth2/account/authorize',
           :token_url     => '/oauth2/v1/authorize',
+          :connection_opts => {
+              :request => {
+                  :timeout => 1800,
+                  :open_timeout => 1800
+              },
+              :timeout => 1800,
+              :open_timeout => 1800
+          }
         })
 
         # on client init, if we have a company file already, get the appropriate base URL for this company file from MYOB
